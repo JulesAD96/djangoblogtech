@@ -1,0 +1,27 @@
+.slider-section {
+    background-image: url("../img/section-slider.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.block-content-slider-title {
+    position: relative;
+    background: #0000006b;
+    padding: 12px;
+    top: 100px;
+}
+
+.slider-read{
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+#myTab {
+    border: none;
+}
