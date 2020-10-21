@@ -115,7 +115,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+STATICFILES_DIRS = (
+    BASE_DIR/'upload'
+)
 
 # INTERNAL_IPS = ['127.0.0.1',]
 CRISPY_TEMPLATE_PACK = "bootstrap4"
